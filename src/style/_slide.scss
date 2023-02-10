@@ -4,7 +4,7 @@
     background: 
         url(./images/slide-section/fresh-top-background.png) no-repeat 5px -40px,
         url(./images/slide-section/main-vegetables.png) no-repeat 100px 400px;
-    background-color: #F3FBF8;
+    background-color: $light-green;
         
     &-section {
         display: flex;
@@ -22,12 +22,11 @@
 
         &-content {
             width: 637px;
-            font-family: 'DM Sans';
             font-style: normal;
             font-weight: 400;
             font-size: 18px;
             line-height: 30px;
-            color: #555555;
+            color: $light-text;
             align-self: center;
             text-align-last: center;
             margin-bottom: 57px;
@@ -43,14 +42,13 @@
                 font-weight: 500;
                 font-size: 18px;
                 line-height: 30px;
-                font-family: 'DM Sans';
-                color: #222222;
+                color: $dark-text;
 
                 &-title {
                     width: 64px;
                     height: 64px;
-                    background: #09A66D;
-                    border: #09A66D;
+                    background: $dark-green;
+                    border: $dark-green;
                     border-radius: 50%;
                     display: flex;
                     justify-content: center;
@@ -88,14 +86,12 @@
             gap: 4px;
 
             &-title {
-                font-family: 'DM Sans';
                 font-weight: 400;
                 font-size: 48px;
                 line-height: 48px;
             }
 
             &-subtitle {
-                font-family: 'DM Sans';
                 font-weight: 400;
                 font-size: 18px;
                 line-height: 30px;
