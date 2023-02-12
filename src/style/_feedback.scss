@@ -3,12 +3,14 @@
     align-items: center;
     gap: 126px;
     margin-bottom: 156px;
+    padding-top: 96px;
 
     &-content {
         display: flex;
         flex-direction: column;
 
         &-title {
+            font-family: Rosario;
             width: 685px;
             font-size: 70px;
             font-weight: 700;
@@ -43,7 +45,9 @@
                 margin-right: 27px;
 
                 &:hover {
-                    background-color: #c4c4c4;
+                    background-color: $dark-green;
+                    cursor: pointer;
+                    transition: all .3s ease-in-out;
                 }
             }
             
@@ -56,18 +60,17 @@
 
                 &:hover {
                     background-color: #239e71;
+                    cursor: pointer;
                 }
             }
         }
     }
 
-    
-}
-
-.feedback-img {
-    width: 446px;
-    height: 444px;
-    background: 
-        url(/src/images/feedback-section/mini-feedback-image.png) no-repeat -40px 340px, 
-        url(/src/images/feedback-section/ahmed-photo.png);
+    &-img {
+        width: 500px;
+        height: 500px;
+        background: 
+            url(/src/images/feedback-section/mini-feedback-image.png) no-repeat -40px 340px, 
+            url(/src/images/feedback-section/ahmed-photo.png) no-repeat;
+    }
 }
