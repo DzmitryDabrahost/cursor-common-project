@@ -1,0 +1,65 @@
+.feedback {
+    display: flex;
+    align-items: center;
+    gap: 126px;
+    margin-bottom: 156px;
+
+    &-content {
+        display: flex;
+        flex-direction: column;
+
+        &-title {
+            width: 685px;
+            font-size: 70px;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        &-text {
+            width: 586px;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            margin-bottom: 40px;
+        }
+
+        &-subtitle {
+            font-weight: 500;
+            font-size: 30px;
+            margin-bottom: 21px;
+        }
+
+        &-scroll {
+            display: flex;
+            align-items: center;
+            gap: 175px;
+
+            &-left {
+                width: 56px;
+                height: 56px;
+                border: 1px solid $icon-color;
+                background-color: inherit;
+                border-radius: 50%;
+                margin-right: 27px;
+            }
+            
+            &-right {
+                width: 56px;
+                height: 56px;
+                border: none;
+                background-color: $dark-green;
+                border-radius: 50%;
+            }
+        }
+    }
+
+    
+}
+
+.feedback-img {
+    width: 446px;
+    height: 444px;
+    background: 
+        url(/src/images/feedback-section/mini-feedback-image.png) no-repeat -40px 340px, 
+        url(/src/images/feedback-section/ahmed-photo.png);
+}
