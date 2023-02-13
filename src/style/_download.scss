@@ -1,0 +1,57 @@
+.download {
+    width: 100%;
+    display: flex;
+    min-height: 500px;
+    margin-bottom: 140px;
+
+    &-images {
+        width: 40%;
+        height: 500px;
+        background: 
+            url(./images/download-section/phone-front.png) no-repeat 125px,
+            url(./images/download-section/phone-back.png) no-repeat 100px;
+
+    }
+    
+    &-content {
+        width: 60%;
+        padding-top: 35px;
+
+        &-btn {
+            background-color: $light-green;
+            border-radius: 50px;
+            font-size: 18px;
+            padding: 11px 24px;
+            border: 1px solid $light-green;
+            outline: none;
+            margin-bottom: 16px;
+
+            &:hover {
+                cursor: pointer;
+                border: 1px solid $light-green;
+                background-color: white;
+                transition: all .4s ease-in;
+            }
+        }
+
+        &-title {
+            font-family: Rosario;
+            font-size: 70px;
+            margin-bottom: 20px;
+        }
+
+        &-subtitle {
+            margin-bottom: 50px;
+            font-size: 18px;
+            color: $light-text;
+            line-height: 30px;
+            width: 575px;
+        }
+
+        &-buttons {
+            display: flex;
+            gap: 24px;
+        }
+    }
+
+}
