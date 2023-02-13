@@ -1,0 +1,56 @@
+.header {
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    &-menu ol {
+        display: flex;
+        gap: 40px;
+        font-size: 18px;
+        align-items: center;
+
+        & a:hover {
+            opacity: .7;
+            transition: all .3s ease-in-out;
+            border-bottom: 2px solid $dark-green;
+        }
+    }   
+
+    &-logo a img:hover {
+        rotate: 360deg;
+        transition: all .3s ease-in-out;  
+    }
+
+    &-buttons {
+        display: flex;
+        gap: 32px;
+
+        &-btn {
+            background-color: $dark-green;
+            width: 160px;
+            height: 40px;
+            font-size: 18px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            border: 1px  solid white;
+
+            &:hover {
+                background-color: white;
+                color: $dark-green;
+                border: 1px solid $dark-green;
+                cursor: pointer;
+                transition: all .3s ease-in-out;
+            }
+        }
+
+        &-icons {
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
