@@ -1,0 +1,51 @@
+.footer {
+    background: $footer-background;
+
+    &-wrapper {
+        display: flex;
+        padding: 66px 0px 118px;
+    }
+
+    &-logo {
+        margin-right: 157px;
+        
+        & img {
+            margin-bottom: 30px;
+        }
+
+        & p {
+            width: 345px;
+            font-size: 18px;
+            color: $light-text;
+        }
+    }
+
+    &-content {
+        display: flex;
+        gap: 142px;
+        padding-top: 39px;
+
+        &-nav {
+
+            &-title {
+                margin-bottom: 40px;
+                font-size: 24px;
+                color: $dark-text;
+            }
+
+            &-links {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+
+                &-icons {
+                    display: flex;
+                    gap: 56px;
+                }
+            }
+            
+        }
+    }
+}
+
+
